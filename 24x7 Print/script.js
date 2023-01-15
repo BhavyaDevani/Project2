@@ -1,12 +1,12 @@
 $(document).ready(function(){
- 
+
  /* $('.section-portfolio').waypoint(function(direction){
     if(direction == "down") {
       $('nav').addClass('sticky');
     }else {
       $('nav').removeClass('sticky');
     }
-    
+
   });
   */
   /* sticky navigarion */
@@ -21,14 +21,14 @@ $(window).scroll(function() {
     yourNavigation.removeClass(stickyDiv);
   }
 });
-  
+
   /* scroll to  */
   $('.js--scroll-to-contact').click(function(){
     $('htm, body').animate({scrollTop: $('.js--section-contact').offset().top}, 1000);
   });
+
   
-  
-  
+
   /* navigarion scroll */
   $('a[href*="#"]')
   // Remove links that don't actually link to anything
@@ -37,8 +37,8 @@ $(window).scroll(function() {
   .click(function(event) {
     // On-page links
     if (
-      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
-      && 
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+      &&
       location.hostname == this.hostname
     ) {
       // Figure out element to scroll to
@@ -65,7 +65,7 @@ $(window).scroll(function() {
       }
     }
   });
-  
-  
-  
+
+
+
 });

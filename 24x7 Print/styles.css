@@ -1,4 +1,4 @@
-/* 
+/*
 Main-Color: #ff0044 ;
 */
 
@@ -71,7 +71,7 @@ section {
 /* -------------------------------------------- */
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url(https://media1.popsugar-assets.com/files/thumbor/zF-2_tFaI7Fl9fEknlE18ctoQfI/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2016/12/14/977/n/1922441/0a55846faae9e865_StockSnap_2GYB1NSBQG.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/6281833/pexels-photo-6281833.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -386,7 +386,7 @@ header p {
 .section-testimonials h2 {
     text-align: center;
     color: #000;
-    font-size: 160%;
+    font-size: 200%;
     font-weight: 700;
     letter-spacing: 1px;
     word-spacing: -2px;
@@ -409,8 +409,8 @@ header p {
     margin-top: 20px;
     text-align: center;
     color: #000;
-    font-size: 75%;
-    font-weight: 250;
+    font-size: 100%;
+    font-weight:700;
     letter-spacing: 1px;
     word-spacing: 1px;
     font-style: italic;
